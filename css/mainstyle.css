@@ -1,0 +1,118 @@
+body {
+    margin: 10px 150px 50px 150px;
+    background-color: lightyellow;
+}
+
+div {
+    padding: 5px 10px 15px 20px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 170, 0, 0.25);
+    border: 1px solid darkred;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    overflow: auto;
+}
+
+/* Basis tekststijlen */
+span {
+    font-weight: bold;
+    font-style: italic;
+    color: red;
+}
+
+h1 {
+    color: red;
+}
+
+p,
+h2,
+h3 {
+    margin-left: 10px;
+}
+
+/* Logo styling */
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+/* Navigatie */
+.navigation {
+    border: 0;
+    border-radius: 0;
+    background-color: lightyellow;
+    border-bottom: 2px dotted darkred;
+    padding: 0.4rem 0.6rem;
+}
+
+.navigation ul {
+    list-style: outside url("../Images/listIcon.png");
+    font-size: 1.5rem;
+    margin-left: 20px;
+    padding: 0.25rem 1rem;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    border: 0;
+    border-radius: 0;
+    background-color: lightyellow;
+    border-top: 2px dotted darkred;
+    padding: 0.6rem 0.5rem;
+}
+
+/* Float classes */
+.float-right {
+    float: right;
+    margin: 0 0 1rem 1rem;
+}
+
+.float-left {
+    float: left;
+    margin: 0 1rem 1rem 0;
+}
+
+.clear {
+    clear: left;
+}
+
+/* Content styling */
+.content {
+    margin-bottom: 20px;
+}
+
+.content .article {
+    margin-bottom: 1rem;
+}
+
+/* Cover afbeeldingen */
+#cover8man {
+    width: 200px;
+    margin: 10px 25px 10px 10px;
+    display: block;
+}
+
+#coverGreenLama {
+    height: 275px;
+    margin: 10px 25px 10px 10px;
+    display: block;
+    object-fit: cover;
+}
+
+#coverStardust {
+    width: 40%;
+    margin: 20px;
+    display: block;
+}
